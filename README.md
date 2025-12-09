@@ -1,42 +1,49 @@
-# Hospital-management-system
-A simple and beginner-friendly Hospital Management System built in Python using SQLite. It helps manage patients, doctors, and basic hospital operations including adding records, updating details, searching data, and storing information securely in a local database.
+A simple and beginner-friendly Hospital Management System built in Python using SQLite.
+This project allows basic management of hospital operations such as handling patient data, doctors, appointments, and maintaining records in a secure local database.
 
+📌 Features
+✔ Patient Management
 
+Add new patients
 
-Features:
-Manage Patients
+Update patient details
 
-Add a new patient.
-View all patients.
-Search patients by name/ID.
-Delete patient record.
-Update patient information.
-Manage Doctors
+View all patients
 
-Add a new doctor.
-View all doctors.
-Search doctors by specialization/ID.
-Delete doctor record.
-Update doctor information.
-Appointments
+Delete patient records
 
-Schedule an appointment.
-View all appointments.
-Implementation:
-hospital.py
-This file defines the main OOP classes: Patient, Doctor, Hospital. Each class represents the core entities of the system.
+Search for patients by ID or name
 
+✔ Doctor Management
 
-database.py
-This file handles the database operations using MYSQL (or any other DB). It can handle CRUD operations for patients, doctors, and appointments.
+Add / update doctor details
 
+Assign doctors to patients
 
+✔ Appointment System
 
-main.py
-This is the entry point of the application that integrates all the functionalities, allowing the user to interact with the system through a command-line menu.
+Create new appointments
 
+View existing appointments
 
-Additional Notes:
-Use sqlite3 for the database backend (alternatively, MySQL/PostgreSQL can be used).
-Add validation checks for user input.
-You can extend the project to include more features such as billing, pharmacy management, etc.
+Manage schedules
+
+✔ Database (SQLite)
+
+All data is stored using SQLite (hospital.db)
+
+Lightweight and requires no external setup
+
+✔ Modular Code
+
+This project is divided into multiple Python files:
+
+main.py – Entry point of the program
+
+hospital.py – Core logic for hospital operations
+
+database.py – Handles database connections and queries
+
+utils.py – Utility/helper functions
+
+readme.md – Documentation
